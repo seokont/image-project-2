@@ -31,13 +31,13 @@ export class Element extends Model<Element> {
   scale: number;
 
   @Column({
-    type: DataType.JSON, // <-- важливо
+    type: DataType.JSON,
     allowNull: false,
   })
   props: object;
 
   @Column({
-    type: DataType.JSON, // <-- важливо
+    type: DataType.JSON,
     allowNull: false,
   })
   meta: object;
